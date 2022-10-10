@@ -1,60 +1,46 @@
-#string
-a = "hello"
-print (a)
-print (type(a))
+# String 
+a = "hello" # a = variabel
+print (type(a),(a),"")
 
 #integer
 b = 12
-print (b)
-print (type(b))
+print (type(b),(b))
 
-#float
+#float 
 c = 10.5
-print (c)
-print (type(c))
+print (type(c),(c))
 
 #tuple
 d = 20,5
-print (d)
-print (type(d))
+print (type(d),(d))
 
 #data complex
 e = 1j
-print (e)
-print (type(e))
-
+print (type(e),e) 
 z = complex ('5-9j')
-print (z)
+print (type(z),z) 
 
-#type data list 
+# type data list
 f = ["a","b","c"]
-print(f)
-print(type(f))
+print(type(f),f)
 
-#contoh
-list_f = [1,2,3]
-print(list_f[0])
+#contoh list
+list__f =[1,2,3]
+print (list__f[0])
 
 #contoh tuple
 tuple_f = 1,2,3
-print(tuple_f[0])
+print (type(tuple_f[0]))
 
-#contoh set 
-set_f = {1,2,3}
-print(set_f)
+# type data set
+g ={"a","b","c"}
+print(type(g),g)
 
-#type data set
-g = {"a","b","c"}
-print(g)
-print(type(g))
-
-#type data frozenset
+#type data frozen set
 h = frozenset({1,2,3})
-print(type(h))
+print (type(h),(h))
 
 #type data boolean
 i = True
 j = False
-print(i,j)
-print(type(i))
-print(type(j))
+print (type(i),i,j)
