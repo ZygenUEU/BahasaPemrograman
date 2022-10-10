@@ -15,9 +15,9 @@
 #       list adalah tipe data koleksi yang bersifat ordered (terurut) dan juga bersifat changable (bisa diubah). Tipe data ini bisa kita definisikan dengan tanda kurung siku [] di dalam Python.
 # 7.    Set 
 #       Set dalam bahasa pemrograman python adalah tipe data kolektif yang digunakan untuk menyimpan banyak nilai dalam satu variabel dengan ketentuan:
-#       > nilai anggota yang disimpan harus unik (tidak duplikat)
-#       > nilai anggota yang sudah dimasukkan tidak bisa diubah lagi
-#       > set bersifat unordered alias tidak berurut –yang artinya tidak bisa diakses dengan index.
+#       > Nilai anggota yang disimpan harus unik (tidak duplikat)
+#       > Nilai anggota yang sudah dimasukkan tidak bisa diubah lagi
+#       > Set bersifat unordered alias tidak berurut –yang artinya tidak bisa diakses dengan index.
 # 8.    Frozenset
 #       Frozenset mirip seperti tipe data set. Jika tipe data set memiliki karakter dinamis, maka frozenset sebalikanya yaitu frozenset memiliki karakter statis.
 # 9.    Boolean
