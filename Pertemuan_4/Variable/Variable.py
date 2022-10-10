@@ -24,8 +24,5 @@ data ("Lamda Pratama Aprilliansyah","20210801056")
 def total(sisi):
     return sisi*sisi
 
-total()
 def segitiga(alas,tinggi):
     return 0.5*alas*tinggi
-
-segitiga()

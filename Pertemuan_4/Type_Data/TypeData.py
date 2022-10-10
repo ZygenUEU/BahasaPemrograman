@@ -1,4 +1,4 @@
-# String 
+#String 
 a = "hello" # a = variabel
 print (type(a),(a),"")
 
