@@ -10,3 +10,6 @@ for a in "pemograman":
         #break
     print (a)
 print ("End")
+
+a = "pemograman"
+print(len(a))
