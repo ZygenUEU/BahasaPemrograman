@@ -1,0 +1,5 @@
+print("===============")
+print("PROGRAM QUIZ")
+print("===============")
+a = (input("masukan nama: "))
+b = int(input("masukan nim: "))
