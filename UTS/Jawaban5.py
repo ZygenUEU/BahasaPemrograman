@@ -5,14 +5,12 @@ def jualan():
     print ("1.", a)
     print ("2.", b)
     print ("3. Exit")
-
-def capucino():
-    cap = "memilih capucino"
-    print(cap)
-    hCapucino = int(input("masukkan harga : "))
-    ppn = hCapucino * 10/100
-    total = hCapucino+ppn
-    print("Jumlah yang harus di bayarkan", total)
+    
+def welcome():
+    nim = 1234567
+    nama = "QWERTY"
+    print ("NIM : ", nim)
+    print ("NAMA : ", nama)
 
 def teh():
     te = "memilih TEH"
@@ -22,12 +20,14 @@ def teh():
     total = hTeh+ppn
     print("Jumlah yang harus di bayarkan", total)
 
-def welcome():
-    nim = 1234567
-    nama = "QWERTY"
-    print ("NIM : ", nim)
-    print ("NAMA : ", nama)
-
+def capucino():
+    cap = "memilih capucino"
+    print(cap)
+    hCapucino = int(input("masukkan harga : "))
+    ppn = hCapucino * 10/100
+    total = hCapucino+ppn
+    print("Jumlah yang harus di bayarkan", total)
+    
 while True:
     welcome()
     jualan()
