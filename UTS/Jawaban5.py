@@ -9,17 +9,17 @@ def jualan():
 def capucino():
     cap = "memilih capucino"
     print(cap)
-    capucino = int(input("masukkan harga : "))
-    ppn = capucino * 10/100
-    total = capucino+ppn
+    hCapucino = int(input("masukkan harga : "))
+    ppn = hCapucino * 10/100
+    total = hCapucino+ppn
     print("Jumlah yang harus di bayarkan", total)
 
 def teh():
     te = "memilih TEH"
     print(te)
-    teh = int(input("masukkan harga : "))
-    ppn = teh * 10/100
-    total = teh+ppn
+    hTeh = int(input("masukkan harga : "))
+    ppn = hTeh * 10/100
+    total = hTeh+ppn
     print("Jumlah yang harus di bayarkan", total)
 
 def welcome():
