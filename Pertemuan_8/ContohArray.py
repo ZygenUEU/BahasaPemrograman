@@ -13,10 +13,10 @@ print()
 
 #Associative array
 print("<= Associative array =>")
-a_dict = dict()
+mahasiswa = dict()
 
-a_dict["name"] = "John"
-a_dict["age"] = "20"
-a_dict["major"] = "Computer Science"
+mahasiswa["nama"] = "Lamda Pratama Aprilliansyah"
+mahasiswa["nim"] = "20210801056"
+mahasiswa["jurusan"] = "Teknik Informatika"
 
-print(a_dict)
+print(mahasiswa)
