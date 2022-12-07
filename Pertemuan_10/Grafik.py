@@ -18,6 +18,7 @@ plt.legend()
 plt.show()
 # ===================== #
 # %%
+import matplotlib.pyplot as plt
 # GRAFIK GARIS #
 y = [2990, 2710, 2540, 3300, 2990]
 x = [18, 19, 20, 21, 22]
@@ -33,6 +34,7 @@ plt.show()
 # =================== #
 # %%
 # Gelombang Sinus #
+import matplotlib.pyplot as plt
 import numpy as np
 
 t = np.arange(0.0, 3.0, 0.01)
@@ -71,6 +73,7 @@ plt.show()
 # ===================== #
 # %%
 # Pie Chart #
+import matplotlib.pyplot as plt
 labels = ['Hijau', 'Kuning', 'Biru', 'Merah']
 quantity = [3, 10, 12, 11]
 colors = ['yellowgreen', 'gold', 'lightskyblue', 'lightcoral']
