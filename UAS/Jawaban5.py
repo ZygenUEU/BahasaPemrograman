@@ -50,6 +50,7 @@ cursor = cnx.cursor()
 # membuat form aplikasi
 root = tk.Tk()
 root.title("Menyimpan data")
+root.geometry("700x350")
 
 # membuat label dan entry untuk nama
 name_label = tk.Label(root, text="Nama:")
@@ -72,6 +73,6 @@ view_button = tk.Button(root, text="Tampilkan", command=on_view_button_click)
 view_button.grid(row=2, column=1)
 
 # membuat listbox untuk menampilkan data
-listbox = tk.Listbox(root)
-listbox.grid(row=3, column=0, columnspan=2)
+listbox = tk.Listbox(root, width=100)
+listbox.grid(row=3, column=0, columnspan=100)
 root.mainloop()
